@@ -1,5 +1,9 @@
 .latest {
    height: 1600px;
+   &_categories{
+      display: flex;
+      flex-wrap: wrap;
+   }
 
    &_p {
       width: 630px;
@@ -10,6 +14,11 @@
       width: 370px;
       height: 370px;
       position: relative;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      // &:not(:last-child){
+      //    margin-right: 30px;
+      // }
 
       &:hover .latest_hidden {
          display: block;
