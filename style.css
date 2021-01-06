@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.center {
+  padding-left: calc(50% - 592px);
+  padding-right: calc(50% - 592px);
+}
+
+.container {
+  width: 1400px;
+}
+
+.header {
+  height: 655px;
+  background-image: url(img/header/pexels-photo-3560561.png);
+  background-size: 90%;
+  position: relative;
+}
+
+.header_black {
+  width: 100%;
+  background: black;
+  opacity: 0.8;
+  height: 655px;
+  position: relative;
+}
+
+.header_top {
+  background-color: white;
+  height: 120px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 44px;
+}
+
+.header_h1 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: white;
+  font-size: 60px;
+}
+
+.header_p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.header_bottom {
+  margin-left: 285px;
+}
+
+.header_menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_menu ul li:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header_menu ul li a {
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+
+.header_menu ul li a:hover {
+  color: #d83b1f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header_logo {
+  margin-right: 344px;
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.header_search_link {
+  margin-left: 28px;
+  display: block;
+}
+
+.header_menu_link {
+  font-weight: 22px;
+  font-family: "Open Sans";
+}
+
+.header_title {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: -65px;
+  z-index: 1;
+}
+
+.header_button {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 520px;
+  margin-left: 33px;
+  z-index: 1;
+}
+
+.header_button_left, .header_button_right {
+  width: 220px;
+  height: 70px;
+  outline: 3px solid white;
+  display: block;
+  margin-left: 25px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.header_button_left:hover, .header_button_right:hover {
+  background-color: #00897b;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.about {
+  height: 670px;
+}
+
+.about_h2 {
+  margin-top: 125px;
+  margin-left: 510px;
+  margin-bottom: 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.about_p {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 15px;
+  width: 630px;
+  text-align: center;
+  margin-left: 280px;
+}
+
+.about_general_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about_description {
+  margin-top: 125px;
+  text-align: center;
+  width: 250px;
+}
+
+.about_description_p {
+  width: 260px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.about_description_h3 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.services {
+  height: 1400px;
+  background-color: #e4fdf9;
+}
+
+.services_h2 {
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 175px;
+  margin-bottom: 40px;
+  margin-left: 500px;
+}
+
+.services_p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  width: 630px;
+  text-align: center;
+  margin-left: 300px;
+  margin-bottom: 120px;
+}
+
+.blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blocks_block {
+  height: 440px;
+  width: 360px;
+  background-color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.blocks_block_img {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.blocks_block_img_hover {
+  display: none;
+}
+
+.blocks_block_h3 {
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.blocks_block_p {
+  margin-bottom: 50px;
+  width: 270px;
+  margin-left: 50px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.blocks_block_button {
+  display: block;
+  outline: 2px solid black;
+  width: 150px;
+  height: 50px;
+  padding-top: 10px;
+  margin-left: 110px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.blocks_block_arm {
+  margin-top: -25px;
+}
+
+.blocks_block:hover {
+  background-color: #00897b;
+  color: white;
+}
+
+.blocks_block:hover a {
+  color: white;
+  outline: 2px solid white;
+}
+
+.blocks_block:hover .blocks_block_img_hover {
+  display: inline;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.blocks_block:hover .blocks_block_img {
+  display: none;
+}
+
+.blocks_block_button:hover {
+  cursor: pointer;
+}
+
+.blocks_block:not(:last-child) {
+  margin-right: 30px;
+}
+
+.latest {
+  height: 1600px;
+}
+
+.latest_p {
+  width: 630px;
+  text-align: center;
+}
+
+.latest_product {
+  width: 370px;
+  height: 370px;
+  position: relative;
+}
+
+.latest_product:hover .latest_hidden {
+  display: block;
+}
+
+.latest_product:hover .latest_product_a {
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+
+.latest_product_a {
+  width: 100%;
+}
+
+.latest_hidden {
+  position: absolute;
+  top: 150px;
+  left: 125px;
+  display: none;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+}
+
+.latest_hidden_h4 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.latest_hidden_p {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

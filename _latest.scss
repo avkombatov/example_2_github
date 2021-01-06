@@ -1,0 +1,48 @@
+.latest {
+   height: 1600px;
+
+   &_p {
+      width: 630px;
+      text-align: center;
+   }
+
+   &_product {
+      width: 370px;
+      height: 370px;
+      position: relative;
+
+      &:hover .latest_hidden {
+         display: block;
+      }
+
+      &:hover .latest_product_a {
+         filter: brightness(40%);
+      }
+
+      &_a {
+         width: 100%;
+      }
+   }
+
+   &_hidden {
+      position: absolute;
+      top: 150px;
+      left: 125px;
+      display: none;
+      color: white;
+      text-align: center;
+      line-height: 15px;
+
+      &_h4 {
+         font-family: "Open Sans";
+         font-weight: 600;
+         font-size: 20px;
+      }
+
+      &_p {
+         font-family: "Open Sans";
+         font-weight: 600;
+         font-size: 15px;
+      }
+   }
+}

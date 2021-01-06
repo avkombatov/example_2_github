@@ -1,0 +1,126 @@
+.services {
+    height: 1400px;
+    background-color: #e4fdf9;
+
+
+    &_h2 {
+        font-family: "Open Sans";
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 175px;
+        margin-bottom: 40px;
+        margin-left: 500px;
+    }
+
+    &_p {
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        width: 630px;
+        text-align: center;
+        margin-left: 300px;
+        margin-bottom: 120px;
+
+    }
+
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+
+    &_block {
+        height: 440px;
+        width: 360px;
+        background-color: white;
+        margin-bottom: 30px;
+        text-align: center;
+        position: relative;
+
+        &_img {
+
+            margin-top: 30px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            &_hover {
+                display: none;
+            }
+        }
+
+        &_h3 {
+            margin-bottom: 30px;
+            font-family: "Open Sans";
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        &_p {
+            margin-bottom: 50px;
+            width: 270px;
+
+            margin-left: 50px;
+            font-family: "Open Sans";
+            font-weight: 600;
+            font-size: 15px;
+
+
+        }
+
+        &_button {
+            display: block;
+            outline: 2px solid black;
+            width: 150px;
+            height: 50px;
+            padding-top: 10px;
+            margin-left: 110px;
+            font-family: "Open Sans";
+            font-weight: 600;
+            font-size: 20px;
+            color: black;
+        }
+
+        
+
+        &_arm {
+            margin-top: -25px;
+        }
+
+        &:hover {
+            background-color: #00897b;
+            color: white;
+        }
+
+        &:hover a {
+            color: white;
+            outline: 2px solid white;
+        }
+
+        &:hover .blocks_block_img_hover {
+            display: inline;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+        }
+
+        &:hover .blocks_block_img {
+            display: none;
+        }
+
+        &_button:hover {
+            cursor: pointer;
+           
+        }
+
+
+
+
+
+
+    }
+
+    &_block:not(:last-child) {
+        margin-right: 30px;
+    }
+}

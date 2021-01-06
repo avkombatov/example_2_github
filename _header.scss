@@ -1,0 +1,141 @@
+.header {
+    height: 655px;
+    background-image: url(img/header/pexels-photo-3560561.png);
+    background-size: 90%;
+    position: relative;
+
+    &_black {
+        width: 100%;
+        background: black;
+        opacity: 0.8;
+        height: 655px;
+        position: relative;
+    }
+
+    &_top {
+        background-color: white;
+        height: 120px;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        padding-top: 44px;
+    }
+
+    &_h1 {
+        font-family: "Open Sans";
+        font-weight: 600;
+        color: white;
+        font-size: 60px;
+    }
+
+    &_p {
+        font-family: "Open Sans";
+        font-weight: 400;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+    }
+    &_bottom{
+        margin-left: 285px;
+    }
+
+
+
+    &_menu ul {
+        display: flex;
+
+        & li:not(:last-child) {
+            margin-right: 45px;
+        }
+
+        & li a {
+            color: #212121;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            font-style: normal;
+            line-height: normal;
+
+            &:hover {
+                color:#d83b1f;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    &_logo {
+        margin-right: 344px;
+        color: #212121;
+        font-family: "Open Sans";
+        font-size: 25px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+    &_search_link {
+        margin-left: 28px;
+        display: block;
+    }
+
+    &_menu {
+        &_link {
+            font-weight: 22px;
+            font-family: "Open Sans";
+        }
+    }
+
+  
+
+    &_title {
+        position: absolute;
+        margin-top: 300px;
+       margin-left: -65px;
+        z-index: 1;
+
+    }
+
+    &_button {
+        position: absolute;
+        display: flex;
+        margin-top: 520px;
+      margin-left: 33px;
+        z-index: 1;
+
+        &_left,
+        &_right {
+            width: 220px;
+            height: 70px;
+            outline: 3px solid white;
+            display: block;
+            margin-left: 25px;
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+            font-size: 20px;
+            font-family: Roboto;
+            font-weight: bold;
+           
+
+            }
+            &_left:hover,
+            &_right:hover{
+                background-color:#00897b;
+                outline: none;
+                transition: 0.3s;
+
+            
+        }
+        
+
+
+    }
+}
