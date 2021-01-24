@@ -1,0 +1,104 @@
+.pricing {
+    height: 1135px;
+    background-color: #F0F1F1;
+
+    &_general {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_hr {
+        margin-bottom: 40px;
+        width: 145px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &_price_span {
+        font-family: 'Open Sans';
+        font-size: 50px;
+        font-weight: 400;
+        color: white;
+        margin-left: 110px;
+    }
+
+    &_dollar_span {
+        position: absolute;
+        font-family: 'Open Sans';
+        font-size: 25px;
+        font-weight: 400;
+        color: white;
+        margin-left: 95px;
+        margin-top: 7px;
+        margin-right: 10px;
+    }
+
+    &_block {
+        width: 380px;
+        &:hover{
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+
+
+        &_top {
+            background-color: #2D47AF;
+            height: 215px;
+
+            &_h3 {
+                font-family: 'Open Sans';
+                font-size: 23px;
+                font-weight: 400;
+                color: white;
+                padding-top: 50px;
+                margin-left: 130px;
+                margin-bottom: 18px;
+            }
+
+            &_p {
+                font-family: 'Open Sans';
+                font-size: 17px;
+                font-weight: 400;
+                color: white;
+            }
+        }
+
+        &_bottom {
+            height: 470px;
+            background-color: white;
+            text-align: center;
+            padding-top: 50px;
+
+            &_p {
+                font-family: 'Open Sans';
+                font-size: 17px;
+                font-weight: 300;
+                color: #7B7B7B;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            &_button {
+                display: block;
+                width: 180px;
+                height: 60px;
+                outline: 2px solid black;
+                color: black;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Open Sans';
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 16px;
+
+                &:hover {
+                    background-color: #00897b;
+                    color: white;
+                    outline: none;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}

@@ -16,6 +16,30 @@ ul li {
     padding-left: calc(50% - 590px);
     padding-right: calc(50% - 590px);
 }
-.container{
+
+.container {
     width: 1400px;
+}
+
+.title_blocks {
+   
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.p_blocks {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 15px;
+    width: 630px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
 }

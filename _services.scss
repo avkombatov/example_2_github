@@ -1,27 +1,27 @@
 .services {
-     height: 1400px;
+    height: 1400px;
     background-color: #e4fdf9;
 
 
-    &_h2 {
-        font-family: "Open Sans";
-        font-size: 30px;
-        font-weight: 700;
-        padding-top: 175px;
-        margin-bottom: 40px;
-        margin-left: 500px;
-    }
+    // &_h2 {
+    //     font-family: "Open Sans";
+    //     font-size: 30px;
+    //     font-weight: 700;
+    //     padding-top: 175px;
+    //     margin-bottom: 40px;
+    //     margin-left: 500px;
+    // }
 
-    &_p {
-        font-family: "Open Sans";
-        font-size: 15px;
-        font-weight: 400;
-        width: 630px;
-        text-align: center;
-        margin-left: 300px;
-        margin-bottom: 120px;
+    // &_p {
+    //     font-family: "Open Sans";
+    //     font-size: 15px;
+    //     font-weight: 400;
+    //     width: 630px;
+    //     text-align: center;
+    //     margin-left: 300px;
+    //     margin-bottom: 120px;
 
-    }
+    // }
 
 }
 
@@ -36,7 +36,7 @@
         background-color: white;
         margin-bottom: 30px;
         text-align: center;
-         position: relative;
+        position: relative;
 
         &_img {
 
@@ -81,7 +81,7 @@
             color: black;
         }
 
-        
+
 
         &_arm {
             margin-top: -25px;
@@ -112,7 +112,7 @@
 
         &_button:hover {
             cursor: pointer;
-           
+
         }
 
 

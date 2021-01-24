@@ -22,6 +22,28 @@ ul li {
   width: 1400px;
 }
 
+.title_blocks {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.p_blocks {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 15px;
+  width: 630px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
 .header {
   height: 655px;
   background-image: url(img/header/pexels-photo-3560561.png);
@@ -162,24 +184,6 @@ ul li {
   height: 670px;
 }
 
-.about_h2 {
-  margin-top: 125px;
-  margin-left: 510px;
-  margin-bottom: 40px;
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.about_p {
-  font-family: "Open Sans";
-  font-weight: normal;
-  font-size: 15px;
-  width: 630px;
-  text-align: center;
-  margin-left: 280px;
-}
-
 .about_general_description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,7 +193,6 @@ ul li {
 }
 
 .about_description {
-  margin-top: 125px;
   text-align: center;
   width: 250px;
 }
@@ -213,25 +216,6 @@ ul li {
 .services {
   height: 1400px;
   background-color: #e4fdf9;
-}
-
-.services_h2 {
-  font-family: "Open Sans";
-  font-size: 30px;
-  font-weight: 700;
-  padding-top: 175px;
-  margin-bottom: 40px;
-  margin-left: 500px;
-}
-
-.services_p {
-  font-family: "Open Sans";
-  font-size: 15px;
-  font-weight: 400;
-  width: 630px;
-  text-align: center;
-  margin-left: 300px;
-  margin-bottom: 120px;
 }
 
 .blocks {
@@ -337,24 +321,6 @@ ul li {
       flex-wrap: wrap;
 }
 
-.latest_h2 {
-  font-family: "Open Sans";
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 125px;
-  margin-left: 465px;
-  margin-bottom: 40px;
-}
-
-.latest_p {
-  width: 630px;
-  text-align: center;
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-size: 15px;
-  margin-left: 260px;
-}
-
 .latest_product {
   width: 370px;
   height: 370px;
@@ -435,5 +401,117 @@ ul li {
   margin-top: 130px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.pricing {
+  height: 1135px;
+  background-color: #F0F1F1;
+}
+
+.pricing_general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pricing_hr {
+  margin-bottom: 40px;
+  width: 145px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing_price_span {
+  font-family: 'Open Sans';
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+  margin-left: 110px;
+}
+
+.pricing_dollar_span {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  margin-left: 95px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.pricing_block {
+  width: 380px;
+}
+
+.pricing_block:hover {
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pricing_block_top {
+  background-color: #2D47AF;
+  height: 215px;
+}
+
+.pricing_block_top_h3 {
+  font-family: 'Open Sans';
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+  padding-top: 50px;
+  margin-left: 130px;
+  margin-bottom: 18px;
+}
+
+.pricing_block_top_p {
+  font-family: 'Open Sans';
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+
+.pricing_block_bottom {
+  height: 470px;
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pricing_block_bottom_p {
+  font-family: 'Open Sans';
+  font-size: 17px;
+  font-weight: 300;
+  color: #7B7B7B;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing_block_bottom_button {
+  display: block;
+  width: 180px;
+  height: 60px;
+  outline: 2px solid black;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 16px;
+}
+
+.pricing_block_bottom_button:hover {
+  background-color: #00897b;
+  color: white;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
