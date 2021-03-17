@@ -66,24 +66,31 @@
 
         &_img_calendar {
             margin-right: 15px;
-
+            width: 19px;
+            height: 19px;
+            margin-top: 2px;
         }
 
         &_img_file {
             margin-right: 15px;
             margin-left: 40px;
+            width: 16px;
+            height: 18px;
+            margin-top: 3px;
         }
 
         &_p_calendar {
             font-family: 'Open Sans';
             font-size: 17px;
             font-weight: 600;
+          
         }
 
-        &_file {
+        &_p_file {
             font-family: 'Open Sans';
             font-size: 17px;
             font-weight: 600;
         }
+        
     }
 }

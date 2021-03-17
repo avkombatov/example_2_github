@@ -9,7 +9,7 @@
         background: black;
         opacity: 0.8;
         height: 655px;
-        position: relative;
+        // position: relative;
     }
 
     &_top {
@@ -36,7 +36,8 @@
         font-size: 22px;
         text-align: center;
     }
-    &_bottom{
+
+    &_bottom {
         margin-left: 285px;
     }
 
@@ -61,7 +62,7 @@
             line-height: normal;
 
             &:hover {
-                color:#d83b1f;
+                color: #d83b1f;
                 transition: 0.3s;
             }
         }
@@ -93,12 +94,12 @@
         }
     }
 
-  
+
 
     &_title {
         position: absolute;
         margin-top: 300px;
-       margin-left: -65px;
+        margin-left: -65px;
         z-index: 1;
 
     }
@@ -107,7 +108,7 @@
         position: absolute;
         display: flex;
         margin-top: 520px;
-      margin-left: 33px;
+        margin-left: 33px;
         z-index: 1;
 
         &_left,
@@ -123,18 +124,19 @@
             font-size: 20px;
             font-family: Roboto;
             font-weight: bold;
-           
 
-            }
-            &_left:hover,
-            &_right:hover{
-                background-color:#00897b;
-                outline: none;
-                transition: 0.3s;
 
-            
         }
-        
+
+        &_left:hover,
+        &_right:hover {
+            background-color: #00897b;
+            outline: none;
+            transition: 0.3s;
+
+
+        }
+
 
 
     }
